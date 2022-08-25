@@ -1,0 +1,72 @@
+.show-card {
+    position: absolute;
+    width: 100%;
+    top: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.show-score {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.show-win-lose {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.show-card h1 {
+    font-family: impact;
+    color: gold;
+    position: absolute;
+
+}
+
+.winner h2{
+    color: gold;
+    font-size: 60px;
+}
+
+.draw h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.loser h2 {
+    color: red;
+    font-size: 60px;
+}
+
+.win-or-lost {
+    position: absolute;
+    top: 15%;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.win h1 {
+    color: gold;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.lost h1 {
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+
+}

@@ -1,0 +1,11 @@
+.score-container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px;
+}
+
+.score {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}

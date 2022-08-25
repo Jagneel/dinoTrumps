@@ -1,0 +1,40 @@
+.image-container img{
+    width: 500px;
+    z-index: 10000;
+}
+
+.card
+{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.image-container {
+border: solid 8px gold;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4c4f2491-e7ef-41b6-b19e-a7a9ae8a5de9/decce54-bc64aedf-880c-4c10-b34a-a14080d7ebcc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRjNGYyNDkxLWU3ZWYtNDFiNi1iMTllLWE3YTlhZThhNWRlOVwvZGVjY2U1NC1iYzY0YWVkZi04ODBjLTRjMTAtYjM0YS1hMTQwODBkN2ViY2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BYn4GAct_3tQVoBqID3pi0xW5RQq93BF0KIzbBtjCXo);
+border-radius: 9px;
+height: 600px;
+
+
+}
+
+h4 {
+    color: gold;    
+    z-index: 10000;
+}
+
+.card-overlay {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3)
+}
