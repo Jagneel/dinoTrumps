@@ -1,4 +1,3 @@
-import React, { Component, useState } from 'react'
 import WheelComponent from './WheelComponent'
 import './spinner.css';
 

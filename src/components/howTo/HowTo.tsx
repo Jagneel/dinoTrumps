@@ -20,7 +20,7 @@ export default function HowTo() {
         <br></br>
         <p>Spin the wheel to get the trump</p>
         <p>You will be shown two dinosaurs</p>
-        <p>Guess which dinosaur has the trunm stat for the round's trump</p>
+        <p>Guess which dinosaur has the better stat for the round's trump</p>
         <p>If you guess right you get a point!</p>
         <p>If not the computer gets the point</p>
         <p>First to 10 wins</p>

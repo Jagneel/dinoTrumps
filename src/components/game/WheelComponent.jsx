@@ -34,7 +34,7 @@ const WheelComponent = ({
       setTimeout(() => {
         window.scrollTo(0, 1)
       }, 0)
-    }, [])
+    },[])
     const wheelInit = () => {
       initCanvas()
       wheelDraw()
