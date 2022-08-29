@@ -45,7 +45,7 @@ const WheelComponent = ({
       // console.log(navigator)
       if (navigator.userAgent.indexOf('MSIE') !== -1) {
         canvas = document.createElement('canvas')
-        canvas.setAttribute('width', 1000)
+        canvas.setAttribute('width', 100)
         canvas.setAttribute('height', 600)
         canvas.setAttribute('id', 'canvas')
         document.getElementById('wheel').appendChild(canvas)

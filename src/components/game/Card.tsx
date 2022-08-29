@@ -11,7 +11,8 @@ export default function Card(props: cardProps) {
               <h4>{props.individual}</h4>
               <img src={props.image} alt='dinosaur-card'></img>
           </div>
-              <div className="card-overlay"></div>
+          <div className="card-overlay">
+          </div>
       </div>
   
       </>
