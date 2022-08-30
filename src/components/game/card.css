@@ -2,7 +2,7 @@
     width: 500px;
     max-width:100%;
     height: auto;
-    margin: 100px;
+    /* margin: 100px; */
     z-index: 10000;
     flex-grow: inherit;
 }
@@ -37,15 +37,13 @@
     .image-container {
         height: 100%;
     }
-
-}
-
-@media only screen and (max-width: 425px) {
     .image-container h4{
         font-size: 100%;
     }
-    
+
 }
+
+
 
 h4 {
     color: gold;    
