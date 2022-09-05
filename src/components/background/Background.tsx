@@ -7,7 +7,7 @@ export default function Background() {
     <div className='background'>
       <div className="overlay"></div>
 
-      <video src={videoBg} autoPlay loop muted/>
+      <video src={videoBg} autoPlay loop muted />
     </div>
   )
 }
