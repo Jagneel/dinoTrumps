@@ -8,13 +8,12 @@ export default function HowTo() {
 
   const navigate = useNavigate();
 
-    function navigateToGame(){
-        navigate('/game')
-    }
+  function navigateToGame() {
+    navigate('/game')
+  }
 
   return (
     <>
-      <Background/>
       <div className='instructions' >
         <h1>How To Play</h1>
         <br></br>
@@ -24,8 +23,8 @@ export default function HowTo() {
         <p>If you guess right you get a point!</p>
         <p>If not the computer gets the point</p>
         <p>First to 10 wins</p>
-      <Button className="home-btn" type="submit" onClick={navigateToGame} children="Play Game"/>
-      </div> 
+        <Button className="home-btn" type="submit" onClick={navigateToGame} children="Play Game" />
+      </div>
     </>
   )
 }

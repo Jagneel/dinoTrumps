@@ -38,18 +38,18 @@
 
 .show-card h1 {
     font-family: impact;
-    color: gold;
+    color: rgb(18, 126, 90);
     position: absolute;
 
 }
 
-.winner h2{
+.winner h2 {
     color: gold;
     font-size: 60px;
 }
 
 .draw h2 {
-    color: white;
+    color: rgb(18, 126, 90);
     font-size: 60px;
 }
 

@@ -10,12 +10,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(18, 126, 90);
 }
 
 .home-btn {
     margin-top: 20px;
+    padding: 5px 20px;
     color: rgb(255, 227, 174);
-    background-color: green;
+    background-color: rgb(18, 126, 90);
     border-radius: 5px;
+    border: none;
+}
+
+.home-btn:hover {
+    color: rgb(36, 26, 7);
+    background-color: rgb(120, 175, 157);
+
 }
